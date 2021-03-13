@@ -2,14 +2,13 @@ import React from "react";
 
 const About = () => (
   <div>
-    <h1>About Page</h1>
-    <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
-    </p>
+    <h1>About Me</h1>
+    <p>Hello, welcome to my portfolio. As you can see I'm a big sports fan, actually more of a soccer
+    fan overall but, I still like to be a super-fan when it comes to LA sports. I recently started learning
+    how to code, and learned some now skill like, JavaScript, Web APIs, Node.js, Object Oriented Programing, SQL/NoSql,
+    PWAs, and React. I hope to someday land a job where I can put my skills to
+    work. In the mean time, please feel free to check out some of my projects, I'll be adding more content
+    as I improve. </p>
   </div>
 );
 

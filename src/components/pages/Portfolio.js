@@ -2,19 +2,21 @@ import React from "react";
 
 const Portfolio = () => (
   <div>
-    <h1>Blog Page</h1>
-    <p>
-      Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-      turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-      Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-      nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo
-      laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad litora
-      torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-      lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec placerat
-      accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque vehicula sit
-      amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
-      iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-    </p>
+    <h1>My Portfolio</h1>
+    <div className="grid-container">
+      <div className="grid-item item-1"><div className="w3-col l6"><a rel="noreferrer" target="_blank"
+        href="https://meural.herokuapp.com/">Meural</a></div></div>
+      <div className="grid-item item-2"><div className="w3-col l6"><a rel="noreferrer" target="_blank"
+        href="https://mooka0.github.io/covid19-info-hub/">Covid-19 Info Hub</a></div></div>
+      <div className="grid-item item-3"><div className="w3-col l6"><a rel="noreferrer" target="_blank"
+        href="https://eramos3.github.io/Weather-Dashboard/">Weather Dashboard</a></div></div>
+      <div className="grid-item item-4"><div className="w3-col l6"><a rel="noreferrer" target="_blank"
+        href="https://eramos3.github.io/work-day-scheduler/">Day Scheduler</a></div></div>
+      <div className="grid-item item-5"><div className="w3-col l6"> <a rel="noreferrer" target="_blank"
+        href="https://bdget-traker.herokuapp.com/">Budget Tracker</a></div></div>
+      <div className="grid-item item-6"><div className="w3-col l6"><a rel="noreferrer" target="_blank"
+        href="https://eramos3.github.io/horiseonrefactorcode/">Horiseon</a></div></div>
+    </div>
   </div>
 );
 
