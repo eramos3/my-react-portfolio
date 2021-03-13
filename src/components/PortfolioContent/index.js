@@ -11,22 +11,22 @@ function PortfolioContent() {
   const renderPage = () => {
     switch (currentPage) {
       case 'Home':
-        return handlePageChange(Home)
+        return <Home/>
       case 'About':
-        return handlePageChange(About)
+        return <About/>
       case 'Portfolio':
-        return handlePageChange(Portfolio)
+        return <Portfolio/>
       case 'Contact':
-        return handlePageChange(Contact)
+        return <Contact/>
     }
   };
 
   return (
-    <div>
+    <div className=''>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>
         {
-          renderPage(currentPage)
+          renderPage()
         }
       </div>
     </div>
