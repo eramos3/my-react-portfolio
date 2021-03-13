@@ -238,8 +238,7 @@ textarea {
 .img-thumbnail {
   width: auto;
   height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
+  margin-bottom: 20px;
 }
 
 button {

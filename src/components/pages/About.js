@@ -1,8 +1,15 @@
 import React from "react";
 
 const About = () => (
-  <div>
+  <div className="container">
     <h1>About Me</h1>
+     <div className="flex-row">
+          <img
+            src={require('../../assets/me.jpeg').default}
+            alt="eder"
+            className="img-thumbnail mx-1"
+           />
+      </div>
     <p>Hello, welcome to my portfolio. As you can see I'm a big sports fan, actually more of a soccer
     fan overall but, I still like to be a super-fan when it comes to LA sports. I recently started learning
     how to code, and learned some now skill like, JavaScript, Web APIs, Node.js, Object Oriented Programing, SQL/NoSql,

@@ -31,7 +31,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Setup
 ```
-git clone git@github.com:eramos3/Budget-Tracker.git
+git clone git@github.com:eramos3/my-react-portfolio.gi
 ```
 ![React Portfolio Screenshot](./src/assets/react-port.png)
 [React Portfolio page](https://eramos3.github.io/my-react-portfolio/)
