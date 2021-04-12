@@ -34,6 +34,11 @@ const Portfolio = () => (
           href="https://eramos3.github.io/horiseonrefactorcode/">Horiseon</a>
         </div>
       </div>
+      <div className="grid-item item-7">
+        <div className="w3-col l6"><a rel="noreferrer" target="_blank"
+          href="https://eramos3.github.io/horiseonrefactorcode/">Horiseon</a>
+        </div>
+      </div>
     </div>
   </div>
 );

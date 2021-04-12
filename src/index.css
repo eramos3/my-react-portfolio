@@ -322,6 +322,11 @@ footer {
   background-position: center;
   background-size: cover;
 }
+.item-6{
+  background-image: url('./assets/la-locals.png');
+  background-position: center;
+  background-size: cover;
+}
 
 @keyframes background_anim {
   0% {
