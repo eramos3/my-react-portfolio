@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import Merual from '../../assets/meural.png'
-import Covid from '../../assets/covid-hub.png'
+import Book from '../../assets/book-search.png'
 import Weather from '../../assets/weather-dashboard.png'
 import Scheduler from '../../assets/scheduler.png'
 import Budget from '../../assets/budget-tracker.png'
 import Locals from '../../assets/la-locals.png'
+import Pizza from '../../assets/pizza-hunt.png'
+import Thoughts from '../../assets/thoughts.png'
 
 const Portfolio = () => {
   const [links] = useState([
@@ -14,9 +16,9 @@ const Portfolio = () => {
       image: Merual
     },
     {
-      href: "https://mooka0.github.io/covid19-info-hub/",
-      name: "Covid-19 Info Hub",
-      image: Covid
+      href: "https://arcane-brushlands-36937.herokuapp.com/",
+      name: "Book Search Engine",
+      image: Book
     },
     {
       href: "https://eramos3.github.io/Weather-Dashboard/",
@@ -37,6 +39,16 @@ const Portfolio = () => {
       href: "http://la-locals.herokuapp.com/",
       name: "LA-LOCALS",
       image: Locals
+    },
+    {
+      href: "https://rocky-depths-37921.herokuapp.com/",
+      name: "Pizza Hunt",
+      image: Pizza
+    },
+    {
+      href: "https://ancient-castle-37434.herokuapp.com/",
+      name: "Deep Thoughts",
+      image: Thoughts
     }
   ]);
   return (

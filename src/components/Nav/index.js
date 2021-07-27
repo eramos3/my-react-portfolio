@@ -5,7 +5,7 @@ function Nav(props) {
   return (
     <header >
       <h2 >
-        <a data-testid="link" href="/">
+        <a style={{textDecorationLine: 'none'}} data-testid="link" href="https://eramos3.github.io/my-react-portfolio/">
           <span role="img" aria-label="camera"> ⚽️</span> Eder Francisco Ramos
         </a>
       </h2>

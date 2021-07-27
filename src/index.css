@@ -260,7 +260,7 @@ a {
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
-	
+	text-decoration: none;
 }
 
 .navActive {
@@ -290,6 +290,7 @@ footer {
   border-radius: 5px;
   font-size: 35px;
   align-items: center;
+  min-height: auto;
 }
 
 .item-1{
@@ -298,7 +299,7 @@ footer {
   background-size: cover;
 }
 .item-2{
-  background-image: url('./assets/covid-hub.png');
+  background-image: url('./assets/book-search.png');
   background-position: center;
   background-size: cover;
 }
@@ -319,6 +320,16 @@ footer {
 }
 .item-6{
   background-image: url('./assets/la-locals.png');
+  background-position: center;
+  background-size: cover;
+}
+.item-7{
+  background-image: url('./assets/pizza-hunt.png');
+  background-position: center;
+  background-size: cover;
+}
+.item-8{
+  background-image: url('./assets/thoughts.png');
   background-position: center;
   background-size: cover;
 }
