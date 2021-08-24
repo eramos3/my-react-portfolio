@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.8838fceb.chunk.css",
-    "main.js": "/my-react-portfolio/static/js/main.a7f570df.chunk.js",
-    "main.js.map": "/my-react-portfolio/static/js/main.a7f570df.chunk.js.map",
+    "main.js": "/my-react-portfolio/static/js/main.e94afd98.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.e94afd98.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.a7551f63.js",
     "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.a7551f63.js.map",
     "static/js/2.0f107972.chunk.js": "/my-react-portfolio/static/js/2.0f107972.chunk.js",
@@ -14,12 +14,13 @@
     "static/js/2.0f107972.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.0f107972.chunk.js.LICENSE.txt",
     "static/media/Eder F Ramos.66e6aab5.pdf": "/my-react-portfolio/static/media/Eder F Ramos.66e6aab5.pdf",
     "static/media/index.css": "/my-react-portfolio/static/media/weather-dashboard.c5dccfc9.png",
+    "static/media/calculator.49610a26.png": "/my-react-portfolio/static/media/calculator.49610a26.png",
     "static/media/me.jpeg": "/my-react-portfolio/static/media/me.001405b0.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.a7551f63.js",
     "static/js/2.0f107972.chunk.js",
     "static/css/main.8838fceb.chunk.css",
-    "static/js/main.a7f570df.chunk.js"
+    "static/js/main.e94afd98.chunk.js"
   ]
 }
