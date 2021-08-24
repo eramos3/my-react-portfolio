@@ -61,7 +61,7 @@ const Portfolio = () => {
     },
     {
       href: "https://eramos3.github.io/calculator/",
-      name: "Deep Thoughts",
+      name: "Calculator App",
       image: Calculator,
       git:"https://github.com/eramos3/calculator"
     }
