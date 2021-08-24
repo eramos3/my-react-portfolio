@@ -7,6 +7,7 @@ import Budget from '../../assets/budget-tracker.png'
 import Locals from '../../assets/la-locals.png'
 import Pizza from '../../assets/pizza-hunt.png'
 import Thoughts from '../../assets/thoughts.png'
+import Calculator from '../../assets/calculator.png'
 
 const Portfolio = () => {
   const [links] = useState([
@@ -57,6 +58,12 @@ const Portfolio = () => {
       name: "Deep Thoughts",
       image: Thoughts,
       git:"https://github.com/eramos3/deep-thoughts"
+    },
+    {
+      href: "https://eramos3.github.io/calculator/",
+      name: "Deep Thoughts",
+      image: Calculator,
+      git:"https://github.com/eramos3/calculator"
     }
   ]);
   return (
