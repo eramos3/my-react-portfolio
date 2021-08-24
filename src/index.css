@@ -25,7 +25,6 @@ main {
 html,
 body {
   min-height: 100%;
-  margin-bottom: 15%;
 }
 
 body {
@@ -345,5 +344,11 @@ footer {
   }
   100% {
     background-position: -2122px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body {
+    margin-bottom: 10%;
   }
 }
