@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Nav from '../Nav';
 import Footer from '../Footer';
-import Resume from '../pages/Resume.js';
+import Resume from '../pages/Resume';
 import About from '../pages/About';
-import Portfolio from '../pages/Portfolio.js';
+import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 
 function PortfolioContent() {
@@ -15,8 +15,8 @@ function PortfolioContent() {
         return <Resume/>
       case 'About':
         return <About/>
-      case 'Portfolio':
-        return <Portfolio/>
+      case 'Projects':
+        return <Projects/>
       case 'Contact':
         return <Contact/>
     }

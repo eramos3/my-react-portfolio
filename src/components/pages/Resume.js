@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
-import resume from '../../assets/Eder F Ramos.pdf'
+import resume from '../../assets/Eder Resume.pdf'
 const Resume = () => (
   <div>
     <h1>Resume</h1>
